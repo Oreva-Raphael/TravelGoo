@@ -8,16 +8,18 @@
 .herosection{
     height: 100vh;
     width: 100%;
-    /* border: 2px, solid red; */
+    /* border: 1px, solid red; */
     background: url("./goo_asset/goo\ background\ fog.png"), url("./goo_asset/Main\ Background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .heronav{
-    width: 100%;
+    width: 90%;
     height: 70px;
-    /* border: 1px, solid orange; */
+    border: 1px, solid orange;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -26,13 +28,13 @@
 .logo{
     width: 100px;
     height: 50px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     /* border: 1px, solid blue; */
 }
 .navigation{
-    width: 300px;
+    width: 400px;
     height: 50px;
-    /* border: 1px, solid black; */
+    border: 1px, solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,12 +43,11 @@
     text-decoration: none;
     color: white;
     font-family: "Open Sans", sans-serif;
-    
 }
 .profile{
     width: 150px;
     height: 50px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     /* border: 1px, solid coral; */
     display: flex;
     justify-content: space-around;
