@@ -677,36 +677,38 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    position: relative;
-}
-.final > img{
-    position: absolute;
-    top:50px;
-    right: 150px;
+    /* position: relative; */
 }
 .subscribe{
-    height: 360px;
-    width: 1100px;
+    height: 500px;
+    width: 80%;
     background: url("./goo_asset/green\ back.png");
-    /* border: 1px, solid blue; */
-    margin-top: 60px;
+    border: 1px, solid blue;
+    margin-top: 230px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 120px;
     align-items: center;
+    position: relative;
+}
+.subscribe > img{
+    top: -30px;
+    right: -20px;
+    /* border: 1px solid orange; */
+    position: absolute;
 }
 .pagefooter{
     height: 380px;
-    width: 1350px;
-    /* border: 1px, solid blueviolet; */
+    width: 95%;
+    border: 1px, solid blueviolet;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .subheader{
     height: 90px;
-    width: 900px;
-    /* border: 1px, solid orange; */
+    width: 80%;
+    border: 1px, solid orange;
     margin-top:50px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -715,15 +717,18 @@
 .entermail{
     height: 100px;
     width: 800px;
-    /* border: 1px, solid black; */
+    border: 1px, solid black;
     display: flex;
     gap: 15px;
     align-items: center;
 }
 .maildrop{
+    position: relative;
+}
+.maildrop input[type="email"]{
     height: 70px;
     width: 450px;
-    /* border: 1px, solid green; */
+    border: none;
     border-radius: 10px;
     background-color: white;
     box-shadow: 2px 2px 15px  rgba(0,0,0,0.2);
@@ -732,9 +737,15 @@
     gap: 15px;
     margin-left: 45px;
 }
-.maildrop p{
+.maildrop input[placeholder="Your email"]{
+    padding-left: 80px;
+    font-size: large;
     font-family: "Open Sans", sans-serif;
-    color: #5E6282
+}
+.maildrop img{
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
 }
 .maildrop img{
     height: 20px;
