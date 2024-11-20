@@ -8,7 +8,7 @@
 .herosection{
     height: 100vh;
     width: 100%;
-    border: 1px, solid red;
+    /* border: 1px, solid red; */
     background: url("./goo_asset/goo\ background\ fog.png"), url("./goo_asset/Main\ Background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 .heronav{
     width: 90%;
     height: 70px;
-    border: 1px, solid orange;
+    /* border: 1px, solid orange; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -37,7 +37,7 @@
 .navigation{
     width: 400px;
     height: 50px;
-    border: 1px, solid black;
+    /* border: 1px, solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@
 .herocontent{
     width: 70%;
     height: 400px;
-    border: 1px, solid hotpink;
+    /* border: 1px, solid hotpink; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -88,7 +88,7 @@
 }
 .herocontent-CTA button{
     background-color: #00A651;
-    width: 130px;
+    width: 150px;
     height: 50px;
     margin-top: 40px;
     border-radius: 12px;
@@ -103,7 +103,7 @@
 }
 .service-wrap{
     height: 500px;
-    /* border: 5px, solid purple; */
+    border: 1px, solid purple;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +112,7 @@
 .service-wrap-header{
     height: 100px;
     width: 200px;
-    /* border: 1px, solid green; */
+    border: 1px, solid green;
     font-family: "Open Sans", sans-serif;
     margin-top: 50px;
     
@@ -122,17 +122,17 @@
     padding-top: 30px;
 }
 .service-wrap-servicebox{
-    width: 1300px;
+    width: 90%;
     height: 320px;
-    /* border: 1px, solid red; */
+    border: 1px, solid red;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .service-wrapcontainer a{
-    width: 370px;
+    width: 85%;
     height: 200px;
-    /* border: 1px, solid black; */
+    border: 1px, solid black;
     border-radius: 15px;
     background-color: #F9F9F9;
     box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.3);
