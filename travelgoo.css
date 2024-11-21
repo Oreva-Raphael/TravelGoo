@@ -845,12 +845,12 @@
 .footnav{
     height: 380px;
     width: 500px;
-    /* border: 1px, solid black; */
+    border: 1px, solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 .appdownload{
     height: 380px;
@@ -865,12 +865,13 @@
 .infohead{
     height: 50px;
     width: 450px;
-    /* border: 1px, solid green; */
+    border: 1px, solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
+    margin-top: 100px;
 }
 .infohead p{
     height: 35px;
@@ -882,19 +883,37 @@
     width: 450px;
     /* border: 1px, solid blue; */
 }
-.footinfo{
-    height: 50px;
+.footinfo > a{
+    height: 40px;
     width: 450px;
-    /* border: 1px, solid red;; */
+    border: 1px, solid red;;
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
 }
-.footinfo p{
-    height: 25px;
+.footinfo a p{
+    /* height: 20px; */
     width: 90px;
     /* border: 1px, solid hotpink; */
-    font-size: smaller;
+    font-size: small;
     color: #5E6282;
+    position: relative;
+}
+.footinfo a p::after{
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    background-color: currentColor;
+}
+.footinfo a p:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
