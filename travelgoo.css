@@ -952,20 +952,11 @@
         align-items: center;
         gap: 6px;
     }
-    .line1{
+    .hamline{
         width: 30px;
         height: 2px;
         background-color: white;
     }
-    .line2{
-        width: 30px;
-        height: 2px;
-        background-color: white;
-    }
-    .line3{
-        width: 30px;
-        height: 2px;
-        background-color: white;
-    }
+
 
 }
