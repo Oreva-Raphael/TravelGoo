@@ -1325,5 +1325,94 @@
         width: 20px;
         height: 20px;
     }
+    .book-trip{
+        height: 650px;
+        width: 100%;
+        /* border: 1px, solid red; */
+        /* gap: 10px; */
+        align-items: center;
+        overflow: hidden;
+    }
+    .book-header{
+        height: 50px;
+        width: 95vw;
+        /* border: 1px, solid hotpink; */
+        margin-top: 40px;
+        font-size: 10px;
+    }
+    .book-subtext{
+        height: 30px;
+        width: 160px;
+        /* border: 1px, solid blue; */
+    }
+    .book-content{
+        height: 450px;
+        width: 95vw;
+        /* border: 1px, solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+        position: relative;
+    }
+    .bookcontent-left{
+        height: 370px;
+        width: 47vw;
+        /* border: 1px, solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .panel{
+        height: 110px;
+        width: 100%;
+        /* border: 1px, solid red; */
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .panel img{
+        height: 50px;
+        width: 15vw;
+    }
+    .panelwords{
+        height: inherit;
+        width: 350px;
+        /* border: 1px, solid blue; */
+        font-size: x-small;
+    }
+    .panelwords h4{
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+    .panelwords p{
+        margin-left: 3px;
+    }
+    .bookcontent-right{
+        display: none;
+    }
+    .responsetriptogreece{
+        background: url("./goo_asset/blue\ blurr.png");
+        background-position: center;
+        background-size: cover;
+        height: 175px;
+        width: 175px;
+        /* border: 1px solid orange; */
+        border-radius: 0px;
+        position: absolute;
+        right: -15px;
+        bottom: 190px;
+    }
+    .greece1{
+        position: absolute;
+        /* border: 1px solid green; */
+        width: 200px;
+        height: 180px;
+        right: -10px;
+        bottom: -60px;
+    }
+
+
+
 
 }
