@@ -69,7 +69,7 @@
 }
 .profile{
     height: 60px;
-    width: 10%;
+    width: 11%;
     /* border: 1px solid coral; */
     display: flex;
     justify-content: space-around;
@@ -1352,7 +1352,7 @@
     .book-content{
         height: 450px;
         width: 95vw;
-        border: 1px, solid black;
+        /* border: 1px, solid black; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1377,13 +1377,14 @@
     }
     .panel img{
         height: 50px;
-        width: 15vw;
+        width: 8vw;
     }
     .panelwords{
         height: inherit;
         width: 350px;
         /* border: 1px, solid blue; */
         font-size: x-small;
+        gap: 10px;
     }
     .panelwords h4{
         margin-top: 10px;
@@ -1402,7 +1403,7 @@
         background-size: cover;
         height: 175px;
         width: 175px;
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         border-radius: 0px;
         position: absolute;
         right: -15px;
