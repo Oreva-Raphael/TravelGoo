@@ -21,7 +21,7 @@
 .heronav{
     width: 95vw;
     height: 70px;
-    border: 1px, solid orange;
+    /* border: 1px, solid orange; */
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@
 .profile{
     height: 60px;
     width: 10%;
-    border: 1px solid coral;
+    /* border: 1px solid coral; */
     display: flex;
     justify-content: space-around;
     align-items: center;
