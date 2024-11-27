@@ -1180,7 +1180,7 @@
     .package-ad{
         height: 270vh;
         width: 100vw;
-        border: 1px, solid hotpink;
+        /* border: 1px, solid hotpink; */
         display: flex;
         flex-direction: column;
         gap: 10px;
